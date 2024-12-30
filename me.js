@@ -20,9 +20,16 @@
 // Types
 /* [
 => any (no type safety which is the main function of the ts), mostly we shoould avoid using the any, but sometimes we can when ts dont know what data is coming from api
+=> if we have assigned any value with undefined or null we change them as well
+=> typles are used in the ts for the strict positioning of the array
+=> drawback of tuple in ts is we can push the value to it
 
+
+=> enums by default take the value of the index
+=> unknow type is when we dont know what could be the value of the type
+=> unkown and the any type are almost same but the hing is that we cant use the unknow type before checking it like checking the type of it, we neet check it first only than we can run it or use it 
+=> never type, use in the while or error conditions (need to learn more for it )
+=> void is used in function we the function need to do some task but it dont need to return anything
 
 ] */
 
-// foreach does not return anything
-// drwabck of tuple in ts is we can push the value to it
